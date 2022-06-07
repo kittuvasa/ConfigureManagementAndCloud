@@ -1,0 +1,4 @@
+When declaring resources initially, we type the resource type in lowercase. 
+When we reference a resource relationship from another file, we capitalize the resource name being referenced.
+
+
