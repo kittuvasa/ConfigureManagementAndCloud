@@ -8,5 +8,12 @@ When we reference a resource relationship from another file, we capitalize the r
  
  New functions added after installing a new module can be found in the lib folder in the directory of the new module.  
  /usr/share/puppet/modules.available/puppetlabs-apache/lib
+ 
+ Manifest files for Puppet will end in the extension .pp
+ 
+ Metadata is data about data, and in this case, often takes the form of installation and compatibility information.
+ 
+ When defining resource types, we write them in lowercase, then capitalize them when referring to them from another resource attribute.
+ 
 
 
