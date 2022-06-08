@@ -15,5 +15,7 @@ When we reference a resource relationship from another file, we capitalize the r
  
  When defining resource types, we write them in lowercase, then capitalize them when referring to them from another resource attribute.
  
+ Node Defintions - Different kinds of nodes are defined, allowing different sets of rule catalogs to apply to different types of machines.
+ 
 
 
