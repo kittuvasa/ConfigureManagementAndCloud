@@ -2,5 +2,11 @@ When declaring resources initially, we type the resource type in lowercase.
 When we reference a resource relationship from another file, we capitalize the resource name being referenced.
 
  A module is an easy way to organize our configuration management tools.
+ 
+ The catalog is the list of rules for each individual system generated once the server has evaluated all variables, 
+ conditionals, and functionals in the manifest and then compared them with facts for each system.  
+ 
+ New functions added after installing a new module can be found in the lib folder in the directory of the new module.  
+ /usr/share/puppet/modules.available/puppetlabs-apache/lib
 
 
