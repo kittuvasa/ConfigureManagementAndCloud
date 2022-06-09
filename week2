@@ -31,6 +31,8 @@ When we reference a resource relationship from another file, we capitalize the r
  
  Puppet uses an Secure Sockets Layer (SSL) Public Key Infrastructure to authenticate both nodes and masters.
  
+ The puppet parser validate command checks the syntax of the manifest to make sure it's correct.
+ 
  
  
 
