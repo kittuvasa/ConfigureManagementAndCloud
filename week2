@@ -36,6 +36,14 @@ When we reference a resource relationship from another file, we capitalize the r
  the purpose of using multiple environments To fully isolate the configurations that agents see, By creating separate directories for different purposes,
  such as testing and production, we can ensure changes don't affect end users.
  
+  Environments in Puppet are used to isolate software in development from software being served to end users.
+  
+  the --noop parameter used for Simulating manifest evaluation without taking any actions. No Operations mode makes Puppet simulate what it would do without actually doing it.
+  
+  We can test our manifests automatically by using rspec tests. In these tests, we can verify resources exist and have attributes set to specific values.
+  
+  
+ 
  
  
 
