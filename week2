@@ -20,5 +20,18 @@ When we reference a resource relationship from another file, we capitalize the r
  The CA either queues a certificate request for manual validation, or uses pre-shared data to verify before sending the certificate to the agent.
  The Certificate Authority creates an SSL key for the agent machine and creates a certificate request.
  
+ A FQDN is a complete domain name for a specific machine that contains both the hostname and the domain name.  
+ A fully qualified domain name (FQDN) is the unabbreviated name for a particular computer, or server. 
+ There are two elements of the FQDN: the hostname and the domain name.
+ 
+ When a Puppet agent evaluates the state of each component in the manifest, it uses gathered facts about the system to decide which rules to apply. 
+ templates  can these facts be "plugged into" in order to simplify management of the content of our Puppet configuration files
+ 
+ Templates are documents that combine code, system facts, and text to render a configuration output fitting predefined rules.  
+ 
+ Puppet uses an Secure Sockets Layer (SSL) Public Key Infrastructure to authenticate both nodes and masters.
+ 
+ 
+ 
 
 
