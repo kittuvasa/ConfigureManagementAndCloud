@@ -33,6 +33,9 @@ When we reference a resource relationship from another file, we capitalize the r
  
  The puppet parser validate command checks the syntax of the manifest to make sure it's correct.
  
+ the purpose of using multiple environments To fully isolate the configurations that agents see, By creating separate directories for different purposes,
+ such as testing and production, we can ensure changes don't affect end users.
+ 
  
  
 
