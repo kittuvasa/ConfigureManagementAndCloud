@@ -18,6 +18,7 @@ When we reference a resource relationship from another file, we capitalize the r
  Node Defintions - Different kinds of nodes are defined, allowing different sets of rule catalogs to apply to different types of machines.
  
  The CA either queues a certificate request for manual validation, or uses pre-shared data to verify before sending the certificate to the agent.
+ The Certificate Authority creates an SSL key for the agent machine and creates a certificate request.
  
 
 
