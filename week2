@@ -42,6 +42,9 @@ When we reference a resource relationship from another file, we capitalize the r
   
   We can test our manifests automatically by using rspec tests. In these tests, we can verify resources exist and have attributes set to specific values.
   
+  If a bare-bones cloud computing experience is needed as well as a high level of control over the software being run, Infrastructure as a Service (IaaS) provides 
+  users with the bare minimum needed to utilize a server’s computational resources, such as a virtual machine. It is the user's responsibility to configure everything else.
+  
   
  
  
