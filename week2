@@ -51,6 +51,8 @@ When we reference a resource relationship from another file, we capitalize the r
  Cloud services provide many advantages, including simplifying configuration management, outsourcing support and maintenance, and letting the provider take care of security.
  Cloud services provide several advantages, like putting the provider in charge of security.
  
+  When we migrate from traditional server configurations to the Cloud, we lift the current configuration and shift it to a virtual machine.
+ 
  
 
 
