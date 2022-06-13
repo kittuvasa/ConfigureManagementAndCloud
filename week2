@@ -54,6 +54,21 @@ When we reference a resource relationship from another file, we capitalize the r
   When we migrate from traditional server configurations to the Cloud, we lift the current configuration and shift it to a virtual machine.
   
   The gcloud init command sets up the authentication procedure between our virtual machine and Google Cloud.
+  
+  Effective templating software allows you to capture an entire virtual machine configuration and use it to create new ones.
+  
+  Generally, you're going to want to choose a region that is close to your users so that you can deliver better performance.
+  
+  The boot disk from which the VM boots will determine what operating system runs on the VM.
+  
+ One way of updating VM services at scale is to simply spin them up again with an updated reference image.
+ 
+ Puppet or other configuration management systems provide a streamlined way to deploy service updates at scale.
+ 
+  The compute parameter tells gcloud that we are managing Compute Engine resources.
+  
+  The instances parameter that follows the compute parameter tells gcloud that we want to manage our VMs on the instance level.
+
  
  
 
