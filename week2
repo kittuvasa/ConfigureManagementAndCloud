@@ -74,6 +74,22 @@ Load balancers reroute requests in order to balance and reduce network load.
 Automation is when we set up a single step in a process to require no oversight, while orchestration refers to automating the entire process.
 
 IaC uses special machine-readable config files to automate configuration management.
+
+Monitoring and alerting allows us to monitor and correct incidents or failures before they reach the end user.
+
+When you connect to a website via the Internet, the web browser first receives an IP address. 
+This IP address identifies a particular computer: the entry point of the website.
+
+Round-robin load balancing is a basic way of spreading client requests across a server group. In turn, a client request
+will be forwarded to each server. The load balancer is directed by the algorithm to go back to the top of the list and repeat again.
+
+Like Puppet, Terraform uses its own domain specific language (DSL), and manages configuration resources as code.
+
+CloudFormation is a service provided by Amazon to assist in modeling and managing AWS resources.
+
+Azure Resource Manager is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources.
+
+
  
  
 
