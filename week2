@@ -69,6 +69,7 @@ When we reference a resource relationship from another file, we capitalize the r
   
   The instances parameter that follows the compute parameter tells gcloud that we want to manage our VMs on the instance level.
 
+Load balancers reroute requests in order to balance and reduce network load.
  
  
 
