@@ -72,6 +72,8 @@ When we reference a resource relationship from another file, we capitalize the r
 Load balancers reroute requests in order to balance and reduce network load.
 
 Automation is when we set up a single step in a process to require no oversight, while orchestration refers to automating the entire process.
+
+IaC uses special machine-readable config files to automate configuration management.
  
  
 
