@@ -91,6 +91,19 @@ Azure Resource Manager is the deployment and management service for Azure. It pr
 
 Blobs are pieces of data that are stored as independent objects, and require no file system. 
 
+ Latency is the amount of time it takes to complete a read or write operation.
+ 
+ Sticky sessions route requests for a particular session to the same machine that first served the request for that session.
+ 
+ Because sticky sessions can cause uneven load distribution as well as migration problems, they should only be used when absolutely necessary.
+ 
+ Our cloud provider can increase our limits that we have set, though it will cost more money.
+ 
+ Everything used to run the service is referred to as the environment. This includes the machines and networks used for running the service,
+ the deployed code, the configuration management, the application configurations, and the customer data.
+ 
+ CDNs allow an ISP to select the closest server for the content it is requesting.
+
 
  
  
