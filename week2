@@ -105,6 +105,8 @@ Blobs are pieces of data that are stored as independent objects, and require no 
  CDNs allow an ISP to select the closest server for the content it is requesting.
  
  Pages are alerts that need immediate human attention, and are often in the form of SMS or email.
+ 
+ An Alerting Policy specifies the conditions that trigger alerts, and the actions to be taken when these alerts are triggered, like sending an email address notification. 
 
 
  
