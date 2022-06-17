@@ -115,7 +115,23 @@ Blobs are pieces of data that are stored as independent objects, and require no 
   We can log and monitor these response codes, and even use them to set alert conditions.
   We must define what occurence or metric threshold will serve as a conditional trigger for our alert.
   A white-box monitoring system is one that collects metrics internally, from within the system being monitored.
+  
+valid strategies for recovery after encountering service failure
+ A quick way to recover is to have a secondary instance of the VM running your service that you can quickly switch to.
+ As long as you've been keeping frequent backups, restoring a previous VM image will often get you where you need to be.
+ If the problem is related to recent changes or updates, rolling back to a previous working version of the service or supporting software will give the time to investigate further.
+
+concepts provide redundancy
+ If your primary VM instance running your service fails, having a secondary instance running in the background ready to take over can provide instant failover.
+ Having a secondary Cloud service provider on hand with your data in case of the first provider having large-scale outages can provide redundancy for a worst-case scenario.
  
+Some critical steps to ensure disaster recovery 
+ As long as we have viable backup images, we can restore the VM running our service.
+ It's important to know that our backup process is working correctly. It would not do to be in a recovery situation and not have backups.
+ 
+Using a large variety of containerized applications can get complicated and messy. What are some important tips for solving problems when using containers?
+ As long as we have the right logs in the right places, we can tell where our problems are.
+ We should take every opportunity to test and retest that our configuration is working properly.
  
  
 
