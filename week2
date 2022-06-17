@@ -109,6 +109,13 @@ Blobs are pieces of data that are stored as independent objects, and require no 
  An Alerting Policy specifies the conditions that trigger alerts, and the actions to be taken when these alerts are triggered, like sending an email address notification. 
 
 
+ A service-level agreement is an arrangement between two or more parties, one being the client and the other being service providers.
+  If an alert notification is not actionable, it should not be an alert at all.
+ The response code in the server's message part of an HTTP message from a web server is useful for tracking the overall status of the response and can be  monitored and logged
+  We can log and monitor these response codes, and even use them to set alert conditions.
+  We must define what occurence or metric threshold will serve as a conditional trigger for our alert.
+  A white-box monitoring system is one that collects metrics internally, from within the system being monitored.
+ 
  
  
 
